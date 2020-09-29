@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name Linear-Technology)(type Legacy)(uri "${KIPRJMOD}/libraries/Linear Technology.lib")(options "")(descr ""))
+  (lib (name Custom_logos)(type Legacy)(uri ${KIPRJMOD}/libraries/Custom_logos.lib)(options "")(descr ""))
 )

@@ -1,0 +1,26 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,PN,Config
+1,"Unpolarized capacitor, small symbol",C_Small,C8,1.5p,C_0603_1608Metric,1,,Murata Electronics,GQM1875C2E1R5WB12D,
+2,"Unpolarized capacitor, small symbol",C_Small,C9 C12,100n,C_0603_1608Metric,2,,Wurth Electronics,885012206071,
+3,"Unpolarized capacitor, small symbol",C_Small,C3 C4,10n,C_0603_1608Metric,2,,Murata Electronics,GRM1885C1H103JA01D,
+4,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C5 C6,10u,C_1210_3225Metric,4,,Taiyo Yuden,GMK325BJ106MN-T,
+5,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J2,Signal out,SMA_Amphenol_901-144_Vertical,1,,Amphenol,901-143-6RFX,
+6,"Resistor, small symbol",R_Small,R4,49.9,R_1206_3216Metric,1,,Yageo,RT1206FRE0749R9L,
+7,"Resistor, small symbol",R_Small,R3,49.9k,R_0603_1608Metric,1,,Susumu,RR0816P-4992-D-68C,
+8,"High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8",ADA4898-1YRDZ,U2,ADA 4898-1,SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf,Analog Devices,ADA4898-1YRDZ,
+9,"150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 12V Output, DFN-14",LT3032-12,U1,LT3032-12,Linear_DE14MA,1,https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf,Analog Devices,LT3032EDE-12#TRPBF,
+
+
+
+
+
+Component Groups:,16
+Component Count:,21
+Fitted Components:,14
+Number of PCBs:,1
+Total components:,14
+Schematic Version:,1.4
+Schematic Date:,2020-09-29
+PCB Variant:,[u'default']
+BoM Date:,29.09.2020 21:30:05
+Schematic Source:,C:\Users\Tilman Preuschoff\Documents\GitHub\SFH203_photodetector\SFH203_photodetector.sch
+KiCad Version:,Eeschema (5.1.5)-3
