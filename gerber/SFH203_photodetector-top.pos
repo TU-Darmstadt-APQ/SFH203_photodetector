@@ -1,0 +1,20 @@
+### Module positions - created on 29.09.2020 22:39:09 ###
+### Printed by Pcbnew version kicad (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                                PosX       PosY       Rot  Side
+C1        10u         C_1210_3225Metric                  147.2500   -60.5500   90.0000  top
+C2        10u         C_1210_3225Metric                  147.4500   -73.1500   90.0000  top
+C3        10n         C_0603_1608Metric                  141.9500   -66.3500  270.0000  top
+C4        10n         C_0603_1608Metric                  148.2500   -67.9500  270.0000  top
+C5        10u         C_1210_3225Metric                  140.8500   -60.5500   90.0000  top
+C6        10u         C_1210_3225Metric                  142.0500   -73.0500   90.0000  top
+C8        1.5p        C_0603_1608Metric                  124.6500   -79.5000  270.0000  top
+C9        100n        C_0603_1608Metric                  132.0500   -68.6500    0.0000  top
+C10       DNF         C_0805_2012Metric                  124.5500   -64.7500  270.0000  top
+C12       100n        C_0603_1608Metric                  121.4500   -75.0500    0.0000  top
+R3        49.9k       R_0603_1608Metric                  126.9500   -79.4000  270.0000  top
+R4        49.9        R_1206_3216Metric                  127.2500   -65.2000  270.0000  top
+U1        LT3032-12   Linear_DE14MA                      145.0500   -67.1500    0.0000  top
+U2        ADA_4898-1  SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm   130.6500   -73.1500  180.0000  top
+## End

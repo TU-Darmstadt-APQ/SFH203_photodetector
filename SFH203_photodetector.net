@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Tilman Preuschoff\\Documents\\GitHub\\SFH203_photodetector\\SFH203_photodetector.sch")
-    (date "29.09.2020 21:29:53")
+    (date "29.09.2020 21:34:14")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -178,22 +178,16 @@
       (tstamp 5F73B967))
     (comp (ref LOGO1)
       (value Logo_APQ)
+      (footprint footprints:APQ-Logo)
       (datasheet ~)
       (fields
         (field (name Config) DNF))
       (libsource (lib Custom_logos) (part Logo_APQ) (description "Open Hardware logo, small"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F73C465))
-    (comp (ref LOGO3)
-      (value Logo_Open_Hardware_Small)
-      (datasheet ~)
-      (fields
-        (field (name Config) DNF))
-      (libsource (lib Graphic) (part Logo_Open_Hardware_Small) (description "Open Hardware logo, small"))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 5F73D64F))
     (comp (ref LOGO2)
       (value Logo_ROHS)
+      (footprint Symbol:RoHS-Logo_6mm_SilkScreen)
       (datasheet ~)
       (fields
         (field (name Config) DNF))
@@ -217,7 +211,16 @@
         (field (name Config) DNF))
       (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5F740246)))
+      (tstamp 5F740246))
+    (comp (ref LOGO3)
+      (value Logo_Open_Hardware_Small)
+      (footprint Symbol:OSHW-Logo_5.7x6mm_SilkScreen)
+      (datasheet ~)
+      (fields
+        (field (name Config) DNF))
+      (libsource (lib Graphic) (part Logo_Open_Hardware_Small) (description "Open Hardware logo, small"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5F73D64F)))
   (libparts
     (libpart (lib Amplifier_Operational) (part ADA4898-1YRDZ)
       (description "High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8")
