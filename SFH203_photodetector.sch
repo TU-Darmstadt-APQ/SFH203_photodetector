@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:SFH203_photodetector-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -140,7 +141,7 @@ U 1 1 599DA148
 P 7300 3200
 F 0 "J2" H 7300 3350 50  0000 C CNN
 F 1 "Signal out" V 7400 3200 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 7300 3200 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal" H 7300 3200 50  0001 C CNN
 F 3 "" H 7300 3200 50  0001 C CNN
 F 4 "Amphenol" H 7300 3200 50  0001 C CNN "MFN"
 F 5 "901-143-6RFX" H 7300 3200 50  0001 C CNN "PN"

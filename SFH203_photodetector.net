@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source "C:\\Users\\Tilman Preuschoff\\Documents\\GitHub\\SFH203_photodetector\\SFH203_photodetector.sch")
-    (date "29.09.2020 21:34:14")
-    (tool "Eeschema (5.1.5)-3")
+    (source C:\Users\Scope\Documents\GitHub\SFH203_photodetector\SFH203_photodetector.sch)
+    (date "01.10.2020 12:45:20")
+    (tool "Eeschema (5.1.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "SFH203 photodetector")
@@ -52,7 +52,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 599D5C38))
     (comp (ref J1)
-      (value "V+   GND   V-")
+      (value Supply)
       (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical)
       (fields
         (field (name Config) DNF))
@@ -71,7 +71,7 @@
       (tstamp 599D810A))
     (comp (ref J2)
       (value "Signal out")
-      (footprint Connector_Coaxial:SMA_Amphenol_901-144_Vertical)
+      (footprint Connector_Coaxial:SMA_Molex_73251-2200_Horizontal)
       (fields
         (field (name MFN) Amphenol)
         (field (name PN) 901-143-6RFX))
@@ -359,7 +359,7 @@
     (library (logical Connector_Generic)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib"))
     (library (logical Custom_logos)
-      (uri "C:\\Users\\Tilman Preuschoff\\Documents\\GitHub\\SFH203_photodetector/libraries/Custom_logos.lib"))
+      (uri C:\Users\Scope\Documents\GitHub\SFH203_photodetector/libraries/Custom_logos.lib))
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical Graphic)
