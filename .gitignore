@@ -19,3 +19,5 @@ Thumbs.db
 *.tmp
 fp-info-cache
 _autosave-*
+*-backups/
+*.kicad_prl
