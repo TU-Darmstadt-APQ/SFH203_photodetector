@@ -1506,7 +1506,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 5566a977-1c3e-4990-8d5e-a5fc3e712432)
   )
-  (text "Gain 5:\nR1 = 402\nCut JP1 place 1.2k/0603 over jumper pads"
+  (text "Gain 5:\nR1 = 300\nCut JP1 place 1.2k/0603 over jumper pads"
     (at 157.48 106.045 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid bc329172-5b18-4320-ac29-42c13ccfabc7)
