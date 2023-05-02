@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "SFH203 Photodetector")
-    (date "2022-11-17")
-    (rev "2.0")
+    (date "2023-05-02")
+    (rev "2.1")
     (company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
@@ -217,7 +217,7 @@
     (fp_line (start -1.95 -1.35) (end -1.95 6.25) (layer "F.Fab") (width 0.1) (tstamp 6714c2db-c394-4334-92a6-cb7d6e00cb22))
     (fp_line (start 0.5 1.375) (end 0 0.875) (layer "F.Fab") (width 0.1) (tstamp 9bd8aa23-f3d0-403a-9595-d9249861018f))
     (fp_line (start -1.95 6.25) (end 5.95 6.25) (layer "F.Fab") (width 0.1) (tstamp a7432417-71d1-4f09-bef7-0815323e9e43))
-    (pad "1" thru_hole roundrect (at 0 0 180) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask) (roundrect_rratio 0.208333)
+    (pad "1" thru_hole roundrect (at 0 0 180) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask) (roundrect_rratio 0.2083333333)
       (net 1 "Net-(C1-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp af1673e6-e65e-40a7-a2d6-e912b4f53ecb))
     (pad "2" thru_hole oval (at 2 0 180) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 701686b4-0afd-4e90-bc38-1a7f0b3fb71b))
@@ -717,10 +717,10 @@
       (net 2 "GND") (pinfunction "Ext") (pintype "passive") (tstamp ae9a2e13-7abf-4685-9d77-2cfbfe92c8ca))
     (pad "2" smd rect locked (at 0 4.25 180) (size 1.5 5.08) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "Ext") (pintype "passive") (tstamp dec2824f-7582-49fb-9ccb-f54e0cd13dba))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132289_EdgeMount.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3D-models/732512120.stp"
+      (offset (xyz 15 0 0.55))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 180 -90))
     )
   )
 
