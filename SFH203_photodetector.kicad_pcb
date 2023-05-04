@@ -720,7 +720,7 @@
     (pad "2" smd rect locked (at 0 4.25 180) (size 1.5 5.08) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "Ext") (pintype "passive") (tstamp dec2824f-7582-49fb-9ccb-f54e0cd13dba))
     (model "${KIPRJMOD}/3D-models/732512120.stp"
-      (offset (xyz 15 0 0.55))
+      (offset (xyz 15.6 0 0.55))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 -90))
     )
