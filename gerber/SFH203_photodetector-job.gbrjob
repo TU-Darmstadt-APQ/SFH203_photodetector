@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.7)"
     },
-    "CreationDate": "2023-05-02T12:44:59+02:00"
+    "CreationDate": "2023-05-04T10:43:00+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "SFH203_photodetector",
       "GUID": "53464832-3033-45f7-9068-6f746f646574",
-      "Revision": "2.0"
+      "Revision": "2.1"
     },
     "Size": {
       "X": 20.1,
