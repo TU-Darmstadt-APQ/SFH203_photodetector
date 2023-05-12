@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.7)*%
-%TF.CreationDate,2023-05-04T10:43:00+02:00*%
-%TF.ProjectId,SFH203_photodetector,53464832-3033-45f7-9068-6f746f646574,2.1*%
+%TF.CreationDate,2023-05-12T13:37:48+02:00*%
+%TF.ProjectId,SFH203_photodetector,53464832-3033-45f7-9068-6f746f646574,2.2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.7)) date 2023-05-04 10:43:00*
+G04 Created by KiCad (PCBNEW (6.0.7)) date 2023-05-12 13:37:48*
 %MOMM*%
 %LPD*%
 G01*
@@ -31,7 +31,7 @@ G04 Aperture macros list*
 G04 Aperture macros list end*
 %ADD10RoundRect,0.250000X0.350000X0.625000X-0.350000X0.625000X-0.350000X-0.625000X0.350000X-0.625000X0*%
 %ADD11O,1.200000X1.750000*%
-%ADD12R,1.500000X5.080000*%
+%ADD12R,2.665000X4.190000*%
 %ADD13C,1.300000*%
 %ADD14C,1.100000*%
 G04 APERTURE END LIST*
@@ -44,8 +44,8 @@ X195000000Y-118100000D03*
 %TD*%
 D12*
 %TO.C,J4*%
-X203642500Y-93125000D03*
-X195142500Y-93125000D03*
+X197707500Y-93135000D03*
+X204692500Y-93135000D03*
 %TD*%
 D13*
 %TO.C,D1*%

@@ -2,7 +2,7 @@ Component,Quantity Per PCB,References,Value,MFN,PN,Description,Footprint,Sheetpa
 1,1,C3,2p,Walsin,0603N2R0C500CT,"Unpolarized capacitor, small symbol",C_0603_1608Metric,/
 2,2,C6-C7,10n,Murata Electronics,GRM1885C1H103JA01D,"Unpolarized capacitor, small symbol",C_0603_1608Metric,/
 3,2,C4-C5,100n,Wurth Electronics,885012206071,"Unpolarized capacitor, small symbol",C_0603_1608Metric,/
-4,4,C1-C2  C8-C9,10u,Taiyo Yuden,GMK325BJ106MN-T,"Unpolarized capacitor, small symbol",C_1210_3225Metric,/
+4,4,C1-C2  C8-C9,10u,Yageo,CC1210ZKY5V9BB106,"Unpolarized capacitor, small symbol",C_1210_3225Metric,/
 5,1,J4,Signal out,Molex,73251-2120,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",SMA_Amphenol_132289_EdgeMount,/
 6,1,J1,V+ GND V-,JST,S3B-PH-K-S(LF)(SN),"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal,/
 7,1,R4,49.9,Yageo,RT1206FRE0749R9L,"Resistor, small symbol",R_1206_3216Metric,/
@@ -21,9 +21,9 @@ Component Count:,18
 Fitted Components:,17
 Number of PCBs:,1
 Total components:,17
-Schematic Version:,2.1
-Schematic Date:,2023-05-02
+Schematic Version:,2.2
+Schematic Date:,2023-05-11
 PCB Variant:,default
-BoM Date:,04.05.2023 10:36:47
+BoM Date:,11.05.2023 10:07:24
 Schematic Source:,SFH203_photodetector.kicad_sch
 KiCad Version:,Eeschema (6.0.7)
