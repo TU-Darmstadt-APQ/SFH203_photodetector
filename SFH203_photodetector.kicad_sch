@@ -6,8 +6,8 @@
 
   (title_block
     (title "SFH203 Photodetector")
-    (date "2023-05-11")
-    (rev "2.2")
+    (date "2023-06-20")
+    (rev "2.2.1")
     (company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
@@ -1640,7 +1640,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c1a19b0c-fdf2-4ece-84fe-4b4b16b48452)
     (property "Reference" "J1" (id 0) (at 34.29 144.78 0))
-    (property "Value" "V+ GND V-" (id 1) (at 34.29 147.32 0))
+    (property "Value" "V- GND V+" (id 1) (at 34.29 147.32 0))
     (property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" (id 2) (at 34.29 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1844,7 +1844,7 @@
       (reference "D1") (unit 1) (value "SFH2030") (footprint "custom:PhotoDiode_SFH2030")
     )
     (path "/c1a19b0c-fdf2-4ece-84fe-4b4b16b48452"
-      (reference "J1") (unit 1) (value "V+ GND V-") (footprint "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal")
+      (reference "J1") (unit 1) (value "V- GND V+") (footprint "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal")
     )
     (path "/2f421363-6cfb-4b72-b362-6d7a695e202c"
       (reference "J4") (unit 1) (value "Signal out") (footprint "Connector_Coaxial:SMA_Molex_73251-2120_EdgeMount_Horizontal")

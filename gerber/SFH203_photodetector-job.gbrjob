@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.7)"
     },
-    "CreationDate": "2023-05-22T14:19:29+02:00"
+    "CreationDate": "2023-06-20T09:13:34+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "SFH203_photodetector",
       "GUID": "53464832-3033-45f7-9068-6f746f646574",
-      "Revision": "2.2"
+      "Revision": "2.2.1"
     },
     "Size": {
       "X": 20.1,
@@ -76,6 +76,16 @@
     {
       "Path": "SFH203_photodetector-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SFH203_photodetector-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SFH203_photodetector-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],

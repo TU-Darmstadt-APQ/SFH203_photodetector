@@ -1,4 +1,4 @@
-### Module positions - created on Mon May 22 14:20:33 2023 ###
+### Module positions - created on Tue Jun 20 09:13:46 2023 ###
 ### Printed by Pcbnew version (6.0.7)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -12,7 +12,7 @@ C6        10n         C_0603_1608Metric                            190.8000  -10
 C7        10n         C_0603_1608Metric                            189.2000  -105.8000  180.0000  top
 C8        10u         C_1210_3225Metric                            192.9000  -101.3250   90.0000  top
 C9        10u         C_1210_3225Metric                            189.3000  -101.3250  -90.0000  top
-J1        V+_GND_V-   JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal      199.0000  -118.1000  180.0000  top
+J1        V-_GND_V+   JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal      199.0000  -118.1000  180.0000  top
 J4        Signal_out  SMA_Molex_73251-2120_EdgeMount_Horizontal    201.2000   -93.1350   90.0000  top
 R1        10k         R_0603_1608Metric                            201.8000  -108.6000    0.0000  top
 R2        300         R_0603_1608Metric                            198.7000  -100.6000  180.0000  top
