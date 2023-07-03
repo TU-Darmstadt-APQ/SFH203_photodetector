@@ -34,6 +34,13 @@ Use the provided step-files for 3D-printing the case with a conductive filament 
 
 
 
+Related work
+--------------------
+
+T. Preuschoff, *Laser Technologies for Applications in Quantum Information Science*, Ph.D. thesis, TU Darmstadt, 2023, [https://tuprints.ulb.tu-darmstadt.de/23242/](https://tuprints.ulb.tu-darmstadt.de/23242/)
+
+
+
 License
 -------
 
