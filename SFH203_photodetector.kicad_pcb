@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "SFH203 Photodetector")
-    (date "2023-06-20")
+    (date "2023-08-04")
     (rev "2.2.1")
     (company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
@@ -1126,7 +1126,7 @@
   (gr_arc (start 195.807107 91) (mid 196.1 90.292893) (end 196.807107 90) (layer "Edge.Cuts") (width 0.1) (tstamp 98c6fee5-93b0-4cd7-a8af-10d29ba927f3))
   (gr_arc (start 206 90) (mid 206.707107 90.292893) (end 207 91) (layer "Edge.Cuts") (width 0.1) (tstamp cfa19695-81d7-4758-8dba-503435e09b5c))
   (gr_arc (start 207 119) (mid 206.707107 119.707107) (end 206 120) (layer "Edge.Cuts") (width 0.1) (tstamp f92969c9-2557-45db-9872-2481cc1eb1a5))
-  (gr_text "SFH203 photodetector\n05/2023 Rev. 2.2\nTilman Preuschoff" (at 203.5 96.9 90) (layer "B.SilkS") (tstamp abf5b682-60da-4bc2-ada4-5dd47b1ca293)
+  (gr_text "SFH203 photodetector\n08/2023 Rev. 2.2.1\nTilman Preuschoff" (at 203.5 96.9 90) (layer "B.SilkS") (tstamp abf5b682-60da-4bc2-ada4-5dd47b1ca293)
     (effects (font (size 1 1) (thickness 0.2)) (justify left mirror))
   )
   (gr_text "Place edge-mount SMA connector\ncentered within +/-0.3mm on central pad" (at 184.5 71.5) (layer "F.Fab") (tstamp a025e605-2e0a-40f2-bb6b-772855a55a19)
