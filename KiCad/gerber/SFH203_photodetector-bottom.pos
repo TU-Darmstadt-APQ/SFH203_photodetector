@@ -1,7 +1,0 @@
-### Module positions - created on Fri Aug  4 14:02:00 2023 ###
-### Printed by Pcbnew version (6.0.7)
-## Unit = mm, Angle = deg.
-## Side : bottom
-# Ref     Val       Package                  PosX       PosY       Rot  Side
-D1        SFH2030   PhotoDiode_SFH2030  -196.9925  -108.2700   90.0000  bottom
-## End
