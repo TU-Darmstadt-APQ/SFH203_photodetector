@@ -1,3 +1,5 @@
+[![Build manufacturing files](https://github.com/TU-Darmstadt-APQ/SFH203_photodetector/actions/workflows/ci.yml/badge.svg)](https://github.com/TU-Darmstadt-APQ/SFH203_photodetector/actions/workflows/ci.yml)
+
 SFH203 Photodetector
 ===================
 This repository contains the [KiCad](https://www.kicad.org/) design files for a low-noise photodetector. The detector consists of a standard silicon photodiode (Osram SFH203) in combination with a two-stage low-noise transimpedance amplifier. The PCB is fitted in a small outline case also provided in this repository.
