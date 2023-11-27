@@ -1,6 +1,6 @@
 SFH203 Photodetector
 ===================
-This repository contains the [KiCad 6](https://www.kicad.org/) design files for a low-noise photodetector. The detector consists of a standard silicon photodiode (Osram SFH203) in combination with a two-stage low-noise transimpedance amplifier. The PCB is fitted in a small outline case also provided in this repository.
+This repository contains the [KiCad](https://www.kicad.org/) design files for a low-noise photodetector. The detector consists of a standard silicon photodiode (Osram SFH203) in combination with a two-stage low-noise transimpedance amplifier. The PCB is fitted in a small outline case also provided in this repository.
 
 ![photodetector](img/photodetector_assembly.png)
 
@@ -20,18 +20,43 @@ Specifications
 
 PCB
 --------------------
-Let your PCB-manufacturer assemble all parts. BOM and Gerber files can be found in this repository.
-
 
 ![photodetector](img/SFH203_photodetector.png)
 
+Let your PCB-manufacturer assemble all parts. The design files can be found on the [releases](../../releases) page and include the following resources:
 
+- Schematics as a PDF
+- Gerber files
+- Pick & place position files
+- Bill of materials as a CSV file and also as an interactive HTML version
 
-Case
+The latest revision of those files can be found [here](../../releases/latest).
+
+Case and Cable
 --------------------
 
-Use the provided step-files for 3D-printing the case with a conductive filament (e.g. Recreus – FilaFlex Conductive). Threads are added by applying standard inserts. See `\case` folder and assembly document for details.
+Use the provided step-files for 3D-printing the case with a conductive filament (e.g. [ProtoPasta Conductive PLA](https://proto-pasta.com/collections/conductive)). Threads are added by applying standard inserts. See `\case` folder and assembly document for details.
 
+The case is designed for use with a fixed cable held by a clamping screw. The cable is internally connected to the JST connector J1. The other connector can be customized.
+
+**Recommended cable configuration with DIN 41 524 receptacle**
+
+![DIN connector](img/DIN.png)
+
+**Cable**: 3x AWG24-AWG26, shielded, outer diameter 5.5mm max., length 50cm
+
+**Connector side 1**: 3x JST BPH-002T-P0.5S, dangling 22mm (without contact) 
+
+**Connector side 2**: DIN 41524, 5-pole, 180°, receptacle
+
+| Pin 		| Signal | Color 		|
+| --- 		| --- 			|	---			|
+|  1 	 	|	V-			|Preferably blue|
+|  2  		|	GND			|Always black	|
+|  3		|	V+			|Always red		|
+|  4  		| NC 			|-				|
+|  5  		| NC			|- 				|
+|  Shell	| Shield		|- 				|
 
 
 Related work
